@@ -17,16 +17,16 @@
   position: absolute;
   border-radius: 4px;
   left: 50%;
+  background-color: white;
   transform: translateX(-50%);
   padding: 9px;
   color: var(--tooltip-text-color);
-  background: #333;
   font-size: 1.5rem;
   font-family: "Courgette", cursive;
   line-height: 1;
   z-index: 100;
   white-space: nowrap;
-  border: 3px solid #333;
+  border: 1px solid #333;
 }
 
 /* CSS border triangles */
@@ -45,6 +45,7 @@
 /* Absolute positioning */
 .Tooltip-Tip.bottom1 {
   bottom: calc(var(--tooltip-margin) * -2.5);
+  color: red;
 }
 /* CSS border triangles */
 .Tooltip-Tip.bottom1::before {
@@ -54,6 +55,7 @@
 
 .Tooltip-Tip.bottom2 {
   bottom: calc(var(--tooltip-margin) * -2.5);
+  color: goldenrod;
 }
 /* CSS border triangles */
 .Tooltip-Tip.bottom2::before {
@@ -63,6 +65,7 @@
 
 .Tooltip-Tip.bottom3 {
   bottom: calc(var(--tooltip-margin) * -2.5);
+  color: green;
 }
 /* CSS border triangles */
 .Tooltip-Tip.bottom3::before {
@@ -72,6 +75,7 @@
 
 .Tooltip-Tip.bottom4 {
   bottom: calc(var(--tooltip-margin) * -2.5);
+  color: goldenrod;
 }
 /* CSS border triangles */
 .Tooltip-Tip.bottom4::before {
@@ -81,9 +85,10 @@
 
 .Tooltip-Tip.bottom5 {
   bottom: calc(var(--tooltip-margin) * -2.5);
+  color: dodgerblue;
 }
 /* CSS border triangles */
 .Tooltip-Tip.bottom5::before {
   bottom: 100%;
-  border-bottom-color: powderblue;
+  border-bottom-color: dodgerblue;
 }

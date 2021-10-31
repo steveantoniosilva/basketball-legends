@@ -97,10 +97,11 @@ button.shaq {
 
 button.iverson {
   background-image: url("https://m.media-amazon.com/images/I/714cq6Yn34L._AC_SL1400_.jpg");
-  background-size: 95%;
   background-position: center;
   background-repeat: no-repeat;
   border: 3px solid black;
+  background-size: 91%;
+
 }
 
 .iverson {
