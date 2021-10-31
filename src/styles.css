@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+
+body {
+  margin: 0;
+}
+
+.react-root {
+  color: #333;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ephesis", cursive;
+  font-size: 1.1rem;
+  text-align: center;
+  height: 100vh;
+}
+
+button {
+  background: white;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 39px 29px;
+  transition: padding 0.75s;
+  margin-top: 95px;
+}
+
+button:hover {
+  padding: 55px 33px;
+  cursor: pointer;
+}
+
+.landing {
+  background-image: url("https://i.pinimg.com/originals/eb/84/38/eb843802beaf6f1bfb44577a503a6364.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+
+button.mj {
+  background-image: url("https://cdn.sportscollectorsdaily.com/wp-content/uploads/2020/06/25054410/Game-worn-Michael-Jordan-1998-playoff-jersey-scaled.jpg");
+  background-size: 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid red;
+}
+
+.mj {
+  background-image: url("https://freepngimg.com/thumb/michael_jordan/29790-4-michael-jordan-transparent-background.png");
+  background-size: 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+button.magic {
+  background-image: url("https://www.rapcity.hu/MITCHELL_NESS_LOS_ANGELES_LAKERS_MAGIC_JOHNSON_32_SWINGMAN_2_0_JERSEY-i119011.jpg");
+  background-size: 133%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid goldenrod;
+}
+
+.magic {
+  background-image: url("https://feeds.frgimages.com/FFImage/thumb.aspx?i=/productImages/_3336000/ff_3336463-3e3e9fc3b418d43a32da_full.jpg?w=800");
+  background-size: 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+button.bird {
+  background-image: url("https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productimages/_3991000/altimages/ff_3991161-3b4a8631d93c3c875538alt2_full.jpg&w=600");
+  background-size: 133%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid green;
+}
+
+.bird {
+  background-image: url("https://cutewallpaper.org/21/larry-bird-backgrounds/larry-bird-Google-Search-Larry-bird-Boston-celtics-.jpg");
+  background-size: 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+button.shaq {
+  background-image: url("https://m.media-amazon.com/images/I/613RvbvNO+L._AC_SX425_.jpg");
+  background-size: 91%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid goldenrod;
+}
+
+.shaq {
+  background-image: url("https://images.footballfanatics.com/FFImage/thumb.aspx?i=/productimages/_3336000/altimages/ff_3336462-48a090ff0e77a159672falt1_full.jpg&w=900");
+  background-size: 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+button.iverson {
+  background-image: url("https://m.media-amazon.com/images/I/714cq6Yn34L._AC_SL1400_.jpg");
+  background-size: 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid black;
+}
+
+.iverson {
+  background-image: url("https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_3336000/altimages/ff_3336298-c7e60c15440bbc7236a7alt1_full.jpg&w=900");
+  background-size: 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
