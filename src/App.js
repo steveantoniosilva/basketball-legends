@@ -9,19 +9,19 @@ function App() {
   return (
     <div className={`react-root ${player}`}>
       <div>
-        <Tooltip direction='bottom1' content='"THE GOAT"'>
+        <Tooltip direction='bottom1' content="' The Goat '">
           <Button player='mj' setPlayer={setPlayer} />
         </Tooltip>
-        <Tooltip direction='bottom2' content='"MAGIC"'>
+        <Tooltip direction='bottom2' content="' Magic '">
           <Button player='magic' setPlayer={setPlayer} />
         </Tooltip>
-        <Tooltip direction='bottom3' content='"LEGEND"'>
+        <Tooltip direction='bottom3' content="' Legend '">
           <Button player='bird' setPlayer={setPlayer} />
         </Tooltip>
-        <Tooltip direction='bottom4' content='"DIESEL"'>
+        <Tooltip direction='bottom4' content="' Diesel '">
           <Button player='shaq' setPlayer={setPlayer} />
         </Tooltip>
-        <Tooltip direction='bottom5' content='"THE ANSWER"'>
+        <Tooltip direction='bottom5' content="' The Answer '">
           <Button player='iverson' setPlayer={setPlayer} />
         </Tooltip>
       </div>

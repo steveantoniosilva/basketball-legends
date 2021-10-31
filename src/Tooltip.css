@@ -1,5 +1,5 @@
 /* Custom properties */
-@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
 :root {
   --tooltip-text-color: white;
@@ -20,9 +20,9 @@
   transform: translateX(-50%);
   padding: 9px;
   color: var(--tooltip-text-color);
-  background: var(--tooltip-background-color);
+  background: #333;
   font-size: 1.5rem;
-  font-family: "Shadows Into Light", cursive;
+  font-family: "Courgette", cursive;
   line-height: 1;
   z-index: 100;
   white-space: nowrap;
