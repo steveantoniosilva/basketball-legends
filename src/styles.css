@@ -50,16 +50,16 @@ button.mj {
   background-repeat: no-repeat;
 }
 
-button.magic {
-  background-image: url("./img/magicj.jpg");
-  background-size: 133%;
+button.kobe {
+  background-image: url("./img/kobej.jpg");
+  background-size: 138%;
   background-position: center;
   background-repeat: no-repeat;
   border: 3px solid goldenrod;
 }
 
-.magic {
-  background-image: url("https://feeds.frgimages.com/FFImage/thumb.aspx?i=/productImages/_3336000/ff_3336463-3e3e9fc3b418d43a32da_full.jpg?w=800");
+.kobe {
+  background-image: url("./img/kobe.png");
   background-size: 45%;
   background-position: center;
   background-repeat: no-repeat;
@@ -67,7 +67,7 @@ button.magic {
 
 button.bird {
   background-image: url("./img/birdj.webp");
-  background-size: 133%;
+  background-size: 125%;
   background-position: center;
   background-repeat: no-repeat;
   border: 3px solid green;
@@ -82,7 +82,7 @@ button.bird {
 
 button.shaq {
   background-image: url("./img/dieselj.jpg");
-  background-size: 91%;
+  background-size: 88%;
   background-position: center;
   background-repeat: no-repeat;
   border: 3px solid goldenrod;

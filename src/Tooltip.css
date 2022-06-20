@@ -55,12 +55,12 @@
 
 .Tooltip-Tip.bottom2 {
   bottom: calc(var(--tooltip-margin) * -2.5);
-  color: goldenrod;
+  color: purple;
 }
 /* CSS border triangles */
 .Tooltip-Tip.bottom2::before {
   bottom: 100%;
-  border-bottom-color: goldenrod;
+  border-bottom-color: purple;
 }
 
 .Tooltip-Tip.bottom3 {
@@ -85,10 +85,10 @@
 
 .Tooltip-Tip.bottom5 {
   bottom: calc(var(--tooltip-margin) * -2.5);
-  color: dodgerblue;
+  color: red;
 }
 /* CSS border triangles */
 .Tooltip-Tip.bottom5::before {
   bottom: 100%;
-  border-bottom-color: dodgerblue;
+  border-bottom-color: red;
 }
