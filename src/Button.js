@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 function Button({ player, setPlayer }) {
   return (
     <button
       className={player}
-      onClick={() => {
+      onMouseOver={() => {
         setPlayer(player);
       }}
     ></button>
