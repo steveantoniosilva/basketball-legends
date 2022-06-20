@@ -4,7 +4,7 @@ function Button({ player, setPlayer }) {
   return (
     <button
       className={player}
-      onMouseOver={() => {
+      onClick={() => {
         setPlayer(player);
       }}
     ></button>
